@@ -1,0 +1,17 @@
+//
+//  drawAView.h
+//  DemoForRotationGesture
+//
+//  Created by 林林尤达 on 17/2/8.
+//  Copyright © 2017年 林林尤达. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface drawAView : UIView
+
+@property (nonatomic,assign)CGFloat progress;
+@property (nonatomic,assign)CGFloat nowProgress;
+
+- (void)drawProgress:(CGFloat)progressnow;
+@end

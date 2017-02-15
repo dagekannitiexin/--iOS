@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230C000D1E4C3D5600BB6034 /* 张碧晨 - 时光笔墨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 230C000C1E4C3D5600BB6034 /* 张碧晨 - 时光笔墨.mp3 */; };
+		23936CC31E4AB33000218D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23936CC21E4AB33000218D0A /* main.m */; };
+		23936CC61E4AB33000218D0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23936CC51E4AB33000218D0A /* AppDelegate.m */; };
+		23936CC91E4AB33000218D0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23936CC81E4AB33000218D0A /* ViewController.m */; };
+		23936CCC1E4AB33000218D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23936CCA1E4AB33000218D0A /* Main.storyboard */; };
+		23936CCE1E4AB33000218D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23936CCD1E4AB33000218D0A /* Assets.xcassets */; };
+		23936CD11E4AB33000218D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23936CCF1E4AB33000218D0A /* LaunchScreen.storyboard */; };
+		23936CDC1E4AB33000218D0A /* DemoForRotationGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23936CDB1E4AB33000218D0A /* DemoForRotationGestureTests.m */; };
+		23936CE71E4AB33000218D0A /* DemoForRotationGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23936CE61E4AB33000218D0A /* DemoForRotationGestureUITests.m */; };
+		23936CF81E4AF27600218D0A /* singleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23936CF71E4AF27600218D0A /* singleGestureRecognizer.m */; };
+		23936CFB1E4AFEDD00218D0A /* drawAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23936CFA1E4AFEDD00218D0A /* drawAView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23936CD81E4AB33000218D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23936CB61E4AB33000218D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23936CBD1E4AB33000218D0A;
+			remoteInfo = DemoForRotationGesture;
+		};
+		23936CE31E4AB33000218D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23936CB61E4AB33000218D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23936CBD1E4AB33000218D0A;
+			remoteInfo = DemoForRotationGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230C000C1E4C3D5600BB6034 /* 张碧晨 - 时光笔墨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张碧晨 - 时光笔墨.mp3"; sourceTree = "<group>"; };
+		23936CBE1E4AB33000218D0A /* DemoForRotationGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForRotationGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23936CC21E4AB33000218D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23936CC41E4AB33000218D0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23936CC51E4AB33000218D0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23936CC71E4AB33000218D0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23936CC81E4AB33000218D0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23936CCB1E4AB33000218D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23936CCD1E4AB33000218D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23936CD01E4AB33000218D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23936CD21E4AB33000218D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23936CD71E4AB33000218D0A /* DemoForRotationGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoForRotationGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23936CDB1E4AB33000218D0A /* DemoForRotationGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoForRotationGestureTests.m; sourceTree = "<group>"; };
+		23936CDD1E4AB33000218D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23936CE21E4AB33000218D0A /* DemoForRotationGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoForRotationGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23936CE61E4AB33000218D0A /* DemoForRotationGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoForRotationGestureUITests.m; sourceTree = "<group>"; };
+		23936CE81E4AB33000218D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23936CF61E4AF27600218D0A /* singleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleGestureRecognizer.h; sourceTree = "<group>"; };
+		23936CF71E4AF27600218D0A /* singleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singleGestureRecognizer.m; sourceTree = "<group>"; };
+		23936CF91E4AFEDD00218D0A /* drawAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawAView.h; sourceTree = "<group>"; };
+		23936CFA1E4AFEDD00218D0A /* drawAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawAView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23936CBB1E4AB33000218D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23936CD41E4AB33000218D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23936CDF1E4AB33000218D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23936CB51E4AB33000218D0A = {
+			isa = PBXGroup;
+			children = (
+				23936CC01E4AB33000218D0A /* DemoForRotationGesture */,
+				23936CDA1E4AB33000218D0A /* DemoForRotationGestureTests */,
+				23936CE51E4AB33000218D0A /* DemoForRotationGestureUITests */,
+				23936CBF1E4AB33000218D0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23936CBF1E4AB33000218D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23936CBE1E4AB33000218D0A /* DemoForRotationGesture.app */,
+				23936CD71E4AB33000218D0A /* DemoForRotationGestureTests.xctest */,
+				23936CE21E4AB33000218D0A /* DemoForRotationGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23936CC01E4AB33000218D0A /* DemoForRotationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				230C000C1E4C3D5600BB6034 /* 张碧晨 - 时光笔墨.mp3 */,
+				23936CC41E4AB33000218D0A /* AppDelegate.h */,
+				23936CC51E4AB33000218D0A /* AppDelegate.m */,
+				23936CC71E4AB33000218D0A /* ViewController.h */,
+				23936CC81E4AB33000218D0A /* ViewController.m */,
+				23936CF61E4AF27600218D0A /* singleGestureRecognizer.h */,
+				23936CF71E4AF27600218D0A /* singleGestureRecognizer.m */,
+				23936CF91E4AFEDD00218D0A /* drawAView.h */,
+				23936CFA1E4AFEDD00218D0A /* drawAView.m */,
+				23936CCA1E4AB33000218D0A /* Main.storyboard */,
+				23936CCD1E4AB33000218D0A /* Assets.xcassets */,
+				23936CCF1E4AB33000218D0A /* LaunchScreen.storyboard */,
+				23936CD21E4AB33000218D0A /* Info.plist */,
+				23936CC11E4AB33000218D0A /* Supporting Files */,
+			);
+			path = DemoForRotationGesture;
+			sourceTree = "<group>";
+		};
+		23936CC11E4AB33000218D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23936CC21E4AB33000218D0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23936CDA1E4AB33000218D0A /* DemoForRotationGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				23936CDB1E4AB33000218D0A /* DemoForRotationGestureTests.m */,
+				23936CDD1E4AB33000218D0A /* Info.plist */,
+			);
+			path = DemoForRotationGestureTests;
+			sourceTree = "<group>";
+		};
+		23936CE51E4AB33000218D0A /* DemoForRotationGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23936CE61E4AB33000218D0A /* DemoForRotationGestureUITests.m */,
+				23936CE81E4AB33000218D0A /* Info.plist */,
+			);
+			path = DemoForRotationGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23936CBD1E4AB33000218D0A /* DemoForRotationGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23936CEB1E4AB33000218D0A /* Build configuration list for PBXNativeTarget "DemoForRotationGesture" */;
+			buildPhases = (
+				23936CBA1E4AB33000218D0A /* Sources */,
+				23936CBB1E4AB33000218D0A /* Frameworks */,
+				23936CBC1E4AB33000218D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoForRotationGesture;
+			productName = DemoForRotationGesture;
+			productReference = 23936CBE1E4AB33000218D0A /* DemoForRotationGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23936CD61E4AB33000218D0A /* DemoForRotationGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23936CEE1E4AB33000218D0A /* Build configuration list for PBXNativeTarget "DemoForRotationGestureTests" */;
+			buildPhases = (
+				23936CD31E4AB33000218D0A /* Sources */,
+				23936CD41E4AB33000218D0A /* Frameworks */,
+				23936CD51E4AB33000218D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23936CD91E4AB33000218D0A /* PBXTargetDependency */,
+			);
+			name = DemoForRotationGestureTests;
+			productName = DemoForRotationGestureTests;
+			productReference = 23936CD71E4AB33000218D0A /* DemoForRotationGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23936CE11E4AB33000218D0A /* DemoForRotationGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23936CF11E4AB33000218D0A /* Build configuration list for PBXNativeTarget "DemoForRotationGestureUITests" */;
+			buildPhases = (
+				23936CDE1E4AB33000218D0A /* Sources */,
+				23936CDF1E4AB33000218D0A /* Frameworks */,
+				23936CE01E4AB33000218D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23936CE41E4AB33000218D0A /* PBXTargetDependency */,
+			);
+			name = DemoForRotationGestureUITests;
+			productName = DemoForRotationGestureUITests;
+			productReference = 23936CE21E4AB33000218D0A /* DemoForRotationGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23936CB61E4AB33000218D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "林林尤达";
+				TargetAttributes = {
+					23936CBD1E4AB33000218D0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X9KZX2DWJL;
+						ProvisioningStyle = Automatic;
+					};
+					23936CD61E4AB33000218D0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23936CBD1E4AB33000218D0A;
+					};
+					23936CE11E4AB33000218D0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23936CBD1E4AB33000218D0A;
+					};
+				};
+			};
+			buildConfigurationList = 23936CB91E4AB33000218D0A /* Build configuration list for PBXProject "DemoForRotationGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23936CB51E4AB33000218D0A;
+			productRefGroup = 23936CBF1E4AB33000218D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23936CBD1E4AB33000218D0A /* DemoForRotationGesture */,
+				23936CD61E4AB33000218D0A /* DemoForRotationGestureTests */,
+				23936CE11E4AB33000218D0A /* DemoForRotationGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23936CBC1E4AB33000218D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23936CD11E4AB33000218D0A /* LaunchScreen.storyboard in Resources */,
+				23936CCE1E4AB33000218D0A /* Assets.xcassets in Resources */,
+				23936CCC1E4AB33000218D0A /* Main.storyboard in Resources */,
+				230C000D1E4C3D5600BB6034 /* 张碧晨 - 时光笔墨.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23936CD51E4AB33000218D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23936CE01E4AB33000218D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23936CBA1E4AB33000218D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23936CC91E4AB33000218D0A /* ViewController.m in Sources */,
+				23936CF81E4AF27600218D0A /* singleGestureRecognizer.m in Sources */,
+				23936CC61E4AB33000218D0A /* AppDelegate.m in Sources */,
+				23936CC31E4AB33000218D0A /* main.m in Sources */,
+				23936CFB1E4AFEDD00218D0A /* drawAView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23936CD31E4AB33000218D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23936CDC1E4AB33000218D0A /* DemoForRotationGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23936CDE1E4AB33000218D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23936CE71E4AB33000218D0A /* DemoForRotationGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23936CD91E4AB33000218D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23936CBD1E4AB33000218D0A /* DemoForRotationGesture */;
+			targetProxy = 23936CD81E4AB33000218D0A /* PBXContainerItemProxy */;
+		};
+		23936CE41E4AB33000218D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23936CBD1E4AB33000218D0A /* DemoForRotationGesture */;
+			targetProxy = 23936CE31E4AB33000218D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23936CCA1E4AB33000218D0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23936CCB1E4AB33000218D0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23936CCF1E4AB33000218D0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23936CD01E4AB33000218D0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23936CE91E4AB33000218D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23936CEA1E4AB33000218D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23936CEC1E4AB33000218D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9KZX2DWJL;
+				INFOPLIST_FILE = DemoForRotationGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..DemoForRotationGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23936CED1E4AB33000218D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9KZX2DWJL;
+				INFOPLIST_FILE = DemoForRotationGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..DemoForRotationGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23936CEF1E4AB33000218D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoForRotationGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..DemoForRotationGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoForRotationGesture.app/DemoForRotationGesture";
+			};
+			name = Debug;
+		};
+		23936CF01E4AB33000218D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoForRotationGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..DemoForRotationGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoForRotationGesture.app/DemoForRotationGesture";
+			};
+			name = Release;
+		};
+		23936CF21E4AB33000218D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoForRotationGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..DemoForRotationGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoForRotationGesture;
+			};
+			name = Debug;
+		};
+		23936CF31E4AB33000218D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoForRotationGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..DemoForRotationGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoForRotationGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23936CB91E4AB33000218D0A /* Build configuration list for PBXProject "DemoForRotationGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23936CE91E4AB33000218D0A /* Debug */,
+				23936CEA1E4AB33000218D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23936CEB1E4AB33000218D0A /* Build configuration list for PBXNativeTarget "DemoForRotationGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23936CEC1E4AB33000218D0A /* Debug */,
+				23936CED1E4AB33000218D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23936CEE1E4AB33000218D0A /* Build configuration list for PBXNativeTarget "DemoForRotationGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23936CEF1E4AB33000218D0A /* Debug */,
+				23936CF01E4AB33000218D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23936CF11E4AB33000218D0A /* Build configuration list for PBXNativeTarget "DemoForRotationGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23936CF21E4AB33000218D0A /* Debug */,
+				23936CF31E4AB33000218D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23936CB61E4AB33000218D0A /* Project object */;
+}
